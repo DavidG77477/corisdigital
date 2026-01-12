@@ -41,8 +41,8 @@ const Hero: React.FC = () => {
       {/* Image de fond */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/Logo/image.png" 
-          alt="Background" 
+          src="https://anlaoyxftthxsljzzfev.supabase.co/storage/v1/object/public/images/image.png" 
+          alt="Background"
           className="w-full h-full object-cover"
           onError={(e) => {
             (e.target as HTMLImageElement).style.display = 'none';
